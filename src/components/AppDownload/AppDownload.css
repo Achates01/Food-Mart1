@@ -1,0 +1,58 @@
+.app-download {
+    background: linear-gradient(135deg, #652099, #feb47b); /* Beautiful gradient background */
+    padding: 50px 20px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a slight shadow */
+  }
+  .app-download p {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+    line-height: 1.5;
+  }
+  .app-download-platforms {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .app-download-platforms img {
+    height: 60px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 10px;
+  }
+  .app-download-platforms img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Elevation on hover */
+  }
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .app-download p {
+      font-size: 1.5rem;
+    }
+  
+    .app-download-platforms {
+      flex-direction: column;
+      gap: 15px;
+    }
+  
+    .app-download-platforms img {
+      height: 50px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .app-download {
+      padding: 30px 15px;
+    }
+  
+    .app-download p {
+      font-size: 1.2rem;
+    }
+  
+    .app-download-platforms img {
+      height: 40px;
+    }
+  }
+  
